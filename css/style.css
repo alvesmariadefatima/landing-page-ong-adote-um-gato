@@ -1,0 +1,50 @@
+body {
+    background-image: url("https://img0.etsystatic.com/134/0/6904652/il_570xN.1028486706_ivj3.jpg");
+}
+
+/* CSS customizado existente... */
+
+/* Media query para dispositivos com largura menor que 640 pixels (mobile) */
+@media screen and (max-width: 640px) {
+    /* Estilos a serem aplicados apenas em dispositivos móveis */
+    /* ... */
+}
+
+/* Media query para dispositivos com largura maior ou igual a 641 pixels (web) */
+@media screen and (min-width: 641px) {
+    /* Estilos a serem aplicados apenas em dispositivos maiores, como web */
+    /* ... */
+}
+
+.menu-container {
+    text-align: center;
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.menu-link {
+    display: block;
+    margin: 4px;
+    font-family: serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Media queries para tornar o menu responsivo */
+@media screen and (max-width: 768px) {
+    .menu-link {
+        margin: 6px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu-link {
+        margin: 8px;
+    }
+}
